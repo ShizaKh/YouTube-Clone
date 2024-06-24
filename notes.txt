@@ -1,0 +1,24 @@
+npx create-react-app
+npm install --legacy-peer-deps
+npm start
+npm run build (to make a production build &  put on netlify)
+*cssgradient.io
+- rapidapi client is used to test apis.
+- $.items[0].snippet.title
+
+- Put font icons and roboto font links in public/index.html
+
+* double click and ctrl+space to import any element directly
+* To import all components in 1 line in app.js, create a file index.js in components folder and export all components as default in there
+
+1) Box: The Box component renders as a <div> by default, but you can swap in any other valid HTML tag or React component using the component prop.
+    Properties: component, sx
+
+2) Stack: Stack is ideal for one-dimensional layouts.(row or column, can't be aligned both ways.)
+     It takes the following PROPERTIES: component, direction, divider, spacing, sx, useFlexGap, children
+
+3) Paper: Paper component is a container for displaying content on an elevated surface.It is ideally suited for designs that follow Material Design's elevation system, which is meant to replicate how light casts shadows in the physical world.(similar to a div with box shadow)
+    Properties: classes, component, elevation, square, sx, variant, children
+
+4) Typography: used for all text instead of p and h1,h2,h3..... tags.
+     Properties: classes, component, sx, variant, variantMapping,  children, align, gutterBottom, noWrap, paragraph
